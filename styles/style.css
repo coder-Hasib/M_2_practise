@@ -1,6 +1,35 @@
 /* fonts  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
+
+/* navigation style here  */
+header{
+    background-color: #562EFF;
+    padding: 25px;
+    border-radius: 10px;
+}
+    nav a{
+        text-decoration: none;
+        color: floralwhite;
+        font-size: 1.5em;
+        margin-right: 20px;
+    }
+    nav a:hover{
+        padding:0 5px;
+        background-color: #49ddd1bc;
+        color: black;
+        border-radius: 5px;
+        transition:nav a,1s linear 1s ;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    #main-nav{
+        margin-left: 180px;
+    }
+
+
 /* common styles or utilities */
 body{
     font-family: 'Poppins', sans-serif;
